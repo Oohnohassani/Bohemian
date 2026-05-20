@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #064e3b;
+  /* background: #333; */
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  background: #065f46;
+  /* background: #333; */
+  border: 1px solid #059669;
+  border-radius: 16px;
+  padding: 40px 36px;
+  width: 360px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  color: #d1fae5;
+  /* color: #059669; */
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.sub {
+  text-align: center;
+  color: #6ee7b7;
+  /* color: #616161; */
+  font-size: 0.82rem;
+  margin-bottom: 32px;
+}
+
+.field {
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  color: #a7f3d0;
+  /* color: #616161; */
+  font-size: 0.78rem;
+  margin-bottom: 6px;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.input-wrap svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  stroke: #059669;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+input {
+  width: 100%;
+  padding: 11px 12px 11px 38px;
+  background: #064e3b00;
+  border: 1px solid #059669;
+  border-radius: 8px;
+  color: #d1fae5;
+  font-family: inherit;
+  font-size: 0.9rem;
+  outline: none;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+input::placeholder {
+  color: #34736a;
+  /* color: #616161; */
+}
+
+input:focus {
+  border-color: #34d399;
+  box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.15);
+}
+
+.forgot {
+  display: block;
+  text-align: right;
+  color: #34d399;
+  /* color: #616161; */
+  font-size: 0.75rem;
+  text-decoration: none;
+  margin-top: 6px;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 12px;
+  background: #10b981;
+  border: none;
+  border-radius: 8px;
+  color: #022c22;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #34d399;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #6ee7b7;
+  /* color: #616161; */
+  font-size: 0.78rem;
+}
+
+.footer a {
+  color: #34d399;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
