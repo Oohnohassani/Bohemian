@@ -22,6 +22,24 @@ body {
   padding: 40px 36px;
   width: 360px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  position: relative;
+}
+
+.card::before {
+  content: "LOGIN";
+  display: block;
+  width: 90px;
+  padding: 0.4rem 1rem;
+  background: #34d399;
+  color: #333;
+  font-size: 0.6rem;
+  text-align: center;
+  position: absolute;
+  right: -2.5rem;
+  top: 0.5rem;
+  transform: rotate(45deg);
+  letter-spacing: 1.6;
 }
 
 h1 {
