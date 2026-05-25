@@ -31,3 +31,5 @@ passwordInput.addEventListener("input", function (e) {
 passwordInput.addEventListener("change", function (e) {
   console.log(e.target.value);
 });
+
+alert("Create or Login to an account 👉");
