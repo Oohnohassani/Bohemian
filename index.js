@@ -27,3 +27,6 @@ form.addEventListener("submit", function (e) {
 passwordInput.addEventListener("input", function (e) {
   console.log(e.target.value);
 });
+
+// Alert
+alert("👉 Create or login to your account");
