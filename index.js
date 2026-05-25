@@ -23,3 +23,7 @@ form.addEventListener("submit", function (e) {
   validateInputs(emailInput.value, 6);
   validateInputs(passwordInput.value, 3);
 });
+
+passwordInput.addEventListener("change", function (e) {
+  console.log(e.target.value);
+});
