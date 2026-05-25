@@ -27,3 +27,7 @@ form.addEventListener("submit", function (e) {
 passwordInput.addEventListener("input", function (e) {
   console.log(e.target.value);
 });
+
+passwordInput.addEventListener("change", function (e) {
+  console.log(e.target.value);
+});
