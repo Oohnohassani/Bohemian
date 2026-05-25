@@ -28,8 +28,7 @@ passwordInput.addEventListener("input", function (e) {
   console.log(e.target.value);
 });
 
-passwordInput.addEventListener("change", function (e) {
-  console.log(e.target.value);
-});
+// Alert
+alert("👉 Create or login to your account");
 
 alert("Create or Login to an account 👉");
